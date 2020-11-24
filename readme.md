@@ -1,7 +1,7 @@
-#Test Automation Playground for Coding School
+<h1>Test Automation Playground for Coding School</h1>
 <i>Vasilis Petrou</i>
 
-###CRUD Application with UI, Soap & Rest WebServices
+<h3>CRUD Application with UI, Soap & Rest WebServices</h3>
 
 <b>Technologies:</b> Java, Spring Boot, MongoDB, Angular 6 with PrimeNG and Material Components.
 
