@@ -9,16 +9,19 @@
 
 <b>Installation:</b>
 - Download & Install Docker https://docs.docker.com/get-docker/
+- Download & Install Maven http://maven.apache.org/download.cgi
+- Download & Install JDK8 https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
 - Download & Install GIT Bash for Windows (only if your OS is Windows) https://git-scm.com/downloads 
-- Open CMD, navigate to "test-automation-playground" folder and run the command:
+- Open CMD/GIT Bash, navigate to root folder and run the commands:
 
+        mvn clean install
         run.sh
         
 - To stop demo-app just click CTRL + C on the console window.
 
 Web Application URL: http://localhost:7001/
-Swagger URL (REST API Documentation): http://localhost:7001/swagger-ui.html
-WSDL URL (SOAP API Documentation): http://localhost:7001/soapws/contacts.wsdl
+<br>Swagger URL (REST API Documentation): http://localhost:7001/swagger-ui.html
+<br>WSDL URL (SOAP API Documentation): http://localhost:7001/soapws/contacts.wsdl
 
 MongoDB:
 - host: localhost
